@@ -1,0 +1,186 @@
+{
+  "id": "b7117d14-8699-4932-b36f-939b29b46075",
+  "version": "2.0",
+  "name": "Test Thêm Một Món Hàng Vào Giỏ Hàng",
+  "url": "http://localhost",
+  "tests": [{
+    "id": "d68b6743-c0ab-41e2-8bc8-1d59d4285f8a",
+    "name": "Untitled",
+    "commands": [{
+      "id": "acae337f-8625-449a-9ef8-0070b6486c87",
+      "comment": "",
+      "command": "open",
+      "target": "/WoFsupermarketDB/Default.aspx?AspxAutoDetectCookieSupport=1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf08d334-fc73-4a8f-942b-fe40f2ac6d8e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x838",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c93661b2-7bb7-4f03-b73f-0811e3d8e0ec",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,212.8000030517578)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd7b7cfe-8b45-4245-9006-5b058c72aecf",
+      "comment": "",
+      "command": "click",
+      "target": "id=Navigation_MainMenuRepeater_LinkButton1_3",
+      "targets": [
+        ["id=Navigation_MainMenuRepeater_LinkButton1_3", "id"],
+        ["linkText=Packaged Foods", "linkText"],
+        ["css=#Navigation_MainMenuRepeater_LinkButton1_3", "css:finder"],
+        ["xpath=//a[contains(text(),'Packaged Foods')]", "xpath:link"],
+        ["xpath=//a[@id='Navigation_MainMenuRepeater_LinkButton1_3']", "xpath:attributes"],
+        ["xpath=//div[@id='bs-megadropdown-tabs']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, \"javascript:__doPostBack('ctl00$Navigation$MainMenuRepeater$ctl03$LinkButton1','')\")]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Packaged Foods')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cc3f011-0688-44f1-9974-3357d4d0a8e1",
+      "comment": "",
+      "command": "click",
+      "target": "id=Navigation_MainMenuRepeater_SubMenuRepeater_3_HyperLink1_0",
+      "targets": [
+        ["id=Navigation_MainMenuRepeater_SubMenuRepeater_3_HyperLink1_0", "id"],
+        ["linkText=Baby Food", "linkText"],
+        ["css=#Navigation_MainMenuRepeater_SubMenuRepeater_3_HyperLink1_0", "css:finder"],
+        ["xpath=//a[contains(text(),'Baby Food')]", "xpath:link"],
+        ["xpath=//a[@id='Navigation_MainMenuRepeater_SubMenuRepeater_3_HyperLink1_0']", "xpath:attributes"],
+        ["xpath=//div[@id='bs-megadropdown-tabs']/ul/li[5]/ul/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'Products.aspx?CatId=24')]", "xpath:href"],
+        ["xpath=//li[5]/ul/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Baby Food')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "81a9447c-14a5-4b68-bc88-ac5fd30a6a6e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,212)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f4f89cf-06cf-409b-bf41-48346ebcdb83",
+      "comment": "",
+      "command": "click",
+      "target": "id=MainContent_ItemList_ProductsListView_ctrl0_ButtonAddToCart_0",
+      "targets": [
+        ["id=MainContent_ItemList_ProductsListView_ctrl0_ButtonAddToCart_0", "id"],
+        ["name=ctl00$MainContent$ItemList$ProductsListView$ctrl0$ctl00$ButtonAddToCart", "name"],
+        ["css=#MainContent_ItemList_ProductsListView_ctrl0_ButtonAddToCart_0", "css:finder"],
+        ["xpath=//input[@id='MainContent_ItemList_ProductsListView_ctrl0_ButtonAddToCart_0']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[6]/div[2]/div/div[2]/div[2]/div/div/div/div[2]/figure/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "126aab67-9d59-490e-bf4a-61376abc1aca",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,207.1999969482422)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d619db1-ee2f-4052-933a-1d9a7ec8907b",
+      "comment": "",
+      "command": "click",
+      "target": "id=MainContent_ItemList_ProductsListView_ctrl0_ButtonAddToCart_0",
+      "targets": [
+        ["id=MainContent_ItemList_ProductsListView_ctrl0_ButtonAddToCart_0", "id"],
+        ["name=ctl00$MainContent$ItemList$ProductsListView$ctrl0$ctl00$ButtonAddToCart", "name"],
+        ["css=#MainContent_ItemList_ProductsListView_ctrl0_ButtonAddToCart_0", "css:finder"],
+        ["xpath=//input[@id='MainContent_ItemList_ProductsListView_ctrl0_ButtonAddToCart_0']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[6]/div[2]/div/div[2]/div[2]/div/div/div/div[2]/figure/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d945816b-b0fe-493d-a893-a761ed3172b7",
+      "comment": "",
+      "command": "click",
+      "target": "id=LinkButtonViewCart",
+      "targets": [
+        ["id=LinkButtonViewCart", "id"],
+        ["linkText=2", "linkText"],
+        ["css=#LinkButtonViewCart", "css:finder"],
+        ["xpath=//a[@id='LinkButtonViewCart']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(\"ctl00$Header$LinkButtonViewCart\", \"\", false, \"\", \"Cart.aspx\", false, true))')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' 2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e60712a3-dee9-4457-8da8-53adea492655",
+      "comment": "",
+      "command": "click",
+      "target": "id=LinkButtonViewCart",
+      "targets": [
+        ["id=LinkButtonViewCart", "id"],
+        ["linkText=2", "linkText"],
+        ["css=#LinkButtonViewCart", "css:finder"],
+        ["xpath=//a[@id='LinkButtonViewCart']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(\"ctl00$Header$LinkButtonViewCart\", \"\", false, \"\", \"Cart.aspx\", false, true))')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' 2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd15cce7-ec83-4711-ad0f-ef06fedce8e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-cart-arrow-down",
+      "targets": [
+        ["css=.fa-cart-arrow-down", "css:finder"],
+        ["xpath=//a[@id='LinkButtonViewCart']/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fdc80ce-09d4-4539-8f03-708e80756d62",
+      "comment": "",
+      "command": "click",
+      "target": "id=MainContent_ItemList_ProductsListView_ctrl0_ButtonAddToCart_0",
+      "targets": [
+        ["id=MainContent_ItemList_ProductsListView_ctrl0_ButtonAddToCart_0", "id"],
+        ["name=ctl00$MainContent$ItemList$ProductsListView$ctrl0$ctl00$ButtonAddToCart", "name"],
+        ["css=#MainContent_ItemList_ProductsListView_ctrl0_ButtonAddToCart_0", "css:finder"],
+        ["xpath=//input[@id='MainContent_ItemList_ProductsListView_ctrl0_ButtonAddToCart_0']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[6]/div[2]/div/div[2]/div[2]/div/div/div/div[2]/figure/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78f9ca40-4e27-44fb-b4e5-09081965ef5f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.value-plus",
+      "targets": [
+        ["css=.value-plus", "css:finder"],
+        ["xpath=//form[@id='form1']/div[6]/div[2]/div/div/table/tbody/tr/td[4]/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//td[4]/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f4b49f83-9427-468c-bb76-fd740efd8776",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d68b6743-c0ab-41e2-8bc8-1d59d4285f8a"]
+  }],
+  "urls": ["http://localhost/"],
+  "plugins": []
+}
